@@ -19,5 +19,27 @@
       <h1>#title#</h1>
       <div>#content#</div>
     </div>
+
+<br>
+<br>
+    <form method="POST" action="/submit-data"> 
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+        
+        <button type="submit">Submit</button>
+    </form>
+<div>
+    <h2>Sample Image</h2>
+    <img src="/images/sample.jpg" alt="Sample Image" width="300">
+    <br>
+    
+    <!-- Download Button -->
+    <form action="/download-image" method="GET">
+      <button type="submit">Download Image</button>
+    </form>
+  </div>
   </body>
 </html>
